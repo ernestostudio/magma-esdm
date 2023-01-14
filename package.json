@@ -1,5 +1,5 @@
 {
-  "name": "@ernestoyoofi/magma-esdm",
+  "name": "@ernestostudio/magma-esdm",
   "version": "0.15.30",
   "description": "🌋 Scrapper magma.esdm.go.id for status volcano and ground movement",
   "main": "index.js",
