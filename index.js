@@ -46,6 +46,7 @@ async function laporan_aktivitas(ga_code) {
   const getlaporan = await scrap(url_laporan, "GET", "", { ...getListGA.headers })
   const $ = cheerio.load(getlaporan.data)
   let _results = {
+    url: url_laporan,
     badge: $(`.card .badge`).eq(0).text(),
     waktu: $(`.card h5.card-title`).eq(0).text()?.split(", ")[1],
     pembuat_laporan: $(`.card p.card-subtitle`).eq(0).text()?.replace("Dibuat oleh,","")?.trim(),
