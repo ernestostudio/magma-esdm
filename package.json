@@ -1,0 +1,30 @@
+{
+  "name": "@ernestoyoofi/magma-esdm",
+  "version": "0.15.30",
+  "description": "🌋 Scrapper magma.esdm.go.id for status volcano and ground movement",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernestoyoofi/magma-esdm.git"
+  },
+  "keywords": [
+    "Magma-ESDM",
+    "Gunung-Berapi",
+    "Rest-Api",
+    "Scrapping",
+    "Javascript"
+  ],
+  "author": "Ernestoyoofi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ernestoyoofi/magma-esdm/issues"
+  },
+  "homepage": "https://github.com/ernestoyoofi/magma-esdm#readme",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
